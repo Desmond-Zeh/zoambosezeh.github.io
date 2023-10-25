@@ -45,7 +45,7 @@ setUserPassword();
 //// Function use to set the user's password
 
 function setUserPassword(){
-let myPassword=prompt("Please enter your password.");
+let myPassword=prompt("Please enter the password (love) as your password.");
 if(!myPassword){
 setUserPassword();                ///// Check if the myPassword variable is not empty and then return to the setUserPassword function if it's false
 }
