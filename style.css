@@ -141,8 +141,7 @@ article {
 aside {
   flex: 1;
   margin-left: 10px;
-  background: purple;
-
+ 
 }
 
 aside ul,li,a {
