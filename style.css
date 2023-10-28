@@ -142,6 +142,7 @@ aside {
   flex: 1;
   margin-left: 10px;
   background-color: purple;
+  color:orange;
 }
 
 aside li {
