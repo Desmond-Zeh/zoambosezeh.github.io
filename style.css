@@ -146,8 +146,9 @@ aside {
   color:orange;
 }
 
-aside li {
+aside ul,li,a {
   padding-bottom: 10px;
+  color:orange;
 }
 
 footer {
