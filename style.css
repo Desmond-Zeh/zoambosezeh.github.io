@@ -59,7 +59,7 @@ background-color:blue;
 }
 /* || header layout */
 
-nav, article, aside, footer {
+nav, article,footer {
   background-color: orange;
   padding: 1%;
 }
