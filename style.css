@@ -129,8 +129,10 @@ script [type="text/javascript"]{
   color: white;
 }
 aside{
-  font-size:24px;
   background-color:purple;
+}
+aside li,a{
+  font-size:24px;
   color:orange;
   text-align:center;
 }
