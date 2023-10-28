@@ -96,7 +96,7 @@ nav a {
 }
 
 nav form {
-  flex: 1;
+  flex: 3;
   display: flex;
   align-items: center;
   height: 100%;
@@ -109,7 +109,7 @@ input {
 }
 
 input[type="search"] {
-  flex: 2;
+  flex: 3;
 }
 
 input[type="submit"] {
@@ -121,7 +121,7 @@ input[type="submit"] {
 }
 script [type="text/javascript"]{
   font-size:24;
-  flex: 1;
+  flex: 2;
   margin-left: 1px;
   background: purple;
   border: 0;
