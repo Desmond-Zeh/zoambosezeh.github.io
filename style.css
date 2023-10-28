@@ -93,6 +93,7 @@ nav a {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
+  color:yellow;
 }
 
 nav form {
