@@ -22,8 +22,7 @@ color:black;
 text-shadow:3px 3px 1px brown;
 }
 h2,
-h3,
-h4{
+h3{
 font-size:32px;
 text-align:center;
 letter-spacing:1px;
@@ -36,7 +35,7 @@ text-height:1px;
 letter-spacing:1px;
 color:black;
 }
-h5{
+h4{
 font-size:24px;
 color:blue;
 letter-spacing:1px;
@@ -48,7 +47,7 @@ background-color:brown;
 letter-spacing:1px;
 }
 body{
-font-size:24px;
+font-size:20px;
 width:1000px;
 margin: 0 auto;
 padding:0 20px 20px 20px;
