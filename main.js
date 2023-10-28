@@ -15,7 +15,7 @@ alert("Ouch! Please stop poking on me. You can't edit directly from here. Thanks
 //// Personalized welcome message
 
 let myButton=document.querySelector("button");  ///Declare the button and the heading to be replaced
-let myHeading=document.querySelector("h5");
+let myHeading=document.querySelector("h4");
 
 //// Function use to set the user's name
 
