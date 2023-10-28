@@ -133,7 +133,6 @@ script [type="text/javascript"]{
 
 main {
   display: flex;
-  color:yellow;
 }
 article {
   flex: 4;
@@ -148,7 +147,7 @@ aside {
 
 aside ul,li,a {
   padding-bottom: 10px;
-  color:blue;
+  color:yellow;
 }
 
 footer {
