@@ -128,16 +128,26 @@ script [type="text/javascript"]{
   border: 0;
   color: white;
 }
-aside{
-  background-color:purple;
-}
-aside li,a{
-  font-size:24px;
-  color:orange;
-  text-align:center;
-}
+
 /* || main layout */
 
 main {
   display: flex;
+}
+article {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  background-color: purple;
+}
+
+aside li {
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
 }
