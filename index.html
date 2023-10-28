@@ -28,14 +28,14 @@
 </h1>
 </header>
 <h2 id="CT">
-	<strong><div  style="text-align:center">
+<div  style="text-align:center"><strong>
 		A. CURRENT TRANSFORMER:
-	</div></strong>
+	</strong></div>
 </h2>
 <p>
-	<strong><spam style="color:dark blue">
+	<spam style="color:dark blue"><strong>
 		Introduction
-	</spam></strong></br>
+	</strong></spam></br>
 A current transformer is a device used to scale down large values of current (for example 100A) to smaller values of 1A or 5A, that can be easily manipulated for the purpose of system protections or metering.</br>
 In system protections, the current transformer plays a vital role as it measures current levels under fault conditions and channel these values to the relay for processing. Thus, the CT transformer serves as the eyes of the relay. Depending on the fault current levels, the relay then command the circuit breaker to trip, isolating the faulty portion of the installation from the rest.</br>
 In metering systems, the current transformer also plays an important role as it scales down currents of larger magnitudes to smaller magnitude of either 1A or 5A, and then channels this current value to the energy meter for measurements.The energy meter performs an energy calculation base on the current and voltage values it receives within a particular time frame.</br> 
@@ -46,20 +46,23 @@ With the above analysis, we can conclude that there exist basically two classes 
 </ul>
 The above listed classes of current transformers often poses some confusions as they both literally plays the same principal role (scaling down larger values of currents to smaller values). Perhaps a measurement currrent transformer rated 100/5A will send out a 5A current through it secondary terminal when 100A current passes across its primary, likewise a protection current transformer. The only difference here depends on the loads connected at the receiving ends of the current transformers.The manner in which a relay responses to a signal from a current trasformer is completely different from that of an energy meter. Below we'll discuss some of the reasons why these transformers shouldn't be used for any purpose other from that which they're made for.</br>
 <ol>
-<li><strong><spam style="color:blue">
+<li><spam style="color:blue"><strong>
 	Protection Current Transformers
-</spam></strong></li>
+</strong></spam></li>
 The purpose of a protection class current transformer is to measure current during fault condition, and gives input to the relay. Based on the current input, the relay then decides for the actuation of trip signal to a Circuit Breaker to isolate the healthy section of power system from the faulty section. This simply means that, the main requirement for a protection class CT is that it should measure the current accurately even when the primary current is of the order of 10 or 20 times of the rated current. This fact will be more evident if you look at the accuracy class of protection class CT. It is generally 5P20 or 5P30. This means that the CT will maintain its accuracy within ±5% when the current through it is 20 or 30 times its rated current. </br>
 Another important design feature of a protection class CT is that its core does not get saturated even under the condition of a fault. This necessitates for the higher value of <strong>Knee Point Voltage</strong>. Therefore, such CTs can measure fault current accurately without getting its core saturated.</br>
 Considering the above unique features, if the protection class CT is connected to a meter then under normal condition, the measurement of meter will not be accurate as desired for a revenue meter. Furthermore, under the condition of fault, the secondary current of the current transformer will be very high, around 20 to 30 times its rated current. This results in a flow of high value of current through the meter. Since meters are not designed for such a high value of current (10 to 20 times of rated current), this will damage the meter.</br>
-<li><strong><spam style="color:blue">Measurement Current Transformers</spam></strong></li>
+<li><spam style="color:blue">
+	<strong>Measurement Current Transformers</strong>
+</spam></li>
 A metering current transformer (CT) is characterized by its ability to measure current accurately (as per its accuracy class) when the primary current is in the range of 20% to 120% of the rated current. Since the secondary of metering CT is connected to various types of meters, an Instrument Safety Factor (the ratio of saturation currrent to the rated current of the CT) is also designated for metering CT. The main purpose of designating ISF is to protect meters connected in the secondary of metering CT during fault condition. Consider a measurement current transformer with an ISF of 2. This means that, if the CT primary current is more than 2 times the rated current, the CT core will saturate to limit the current through the meter connected to its secondary terminals. Any futher increase in primary current doesn't affect the secondary current. Thus, the meter is protected from high value of current under fault condition. </br>
 Let us now assume that this metering CT secondary is connected to protection relay. Under fault condition, the CT core will saturate and hence limit its secondary current. Under such condition, the relay may not operate as the current channeled to it by the CT might still be lower than the threshold value. Thus, the power system stability will be compromised.</br>
 From the above discussion, it is clear that protection class CT should be used for protection purposes and metering CT should be used for metering purposes.</br>
 </ol>
-<strong><spam style="color:blue"><div style="text-align:center">
-	Criteria for the selection of current transformers for measurement
-</div></spam></strong></br>
+<div style="text-align:center">
+	<spam style="color:blue"><strong>Criteria for the selection of current transformers for measurement
+	</strong></spam>
+</div></br>
 In the selection of measurement CTs, the following criteria should be respected;</br>
 <ol>
 <li>Determine the load line current of the system and then use it to determins the primary current of the CT.The load current must be greater than 5A.</li>
@@ -69,9 +72,9 @@ In the selection of measurement CTs, the following criteria should be respected;
 <li>Current Transformers with single terminals are used for low voltage systems.</li>
 <li>5A CT should be used for systems with distances of not more than 10m, while for distances above 10m, 1A CTs should be used. This is done in order to reduce the losses due to the resistance (which strongly depends on the length of the copper cables) of the copper cables leaving the secondary terminals of the CT to the energy meter.</li>
 </ol>
-<strong>
-	<spam style="color:blue">Sizing of current transformers for energy meters</spam>
-</strong></br>
+	<spam style="color:blue">
+		<strong>Sizing of current transformers for energy meters</strong>
+</spam></br>
 The signal plate of an a.c generator has the following characteristics:</br>
 <ul>
 <li>Norminal voltage:400V</li>
@@ -98,24 +101,34 @@ To select suitable CTs for the metering system of this generator, we proceed as 
 <li> Finally, the suitable CTs for our generator's metering system are rated <strong>1000/5A, 15VA-cl:0,5.</strong></li>
 </ol>
 </p>
-<h2 id="VT">
-	<strong><div style="text-align:center" >B. VOLTAGE TRANSFORMER: </div></strong>
+<h2 id="VT"><div style="text-align:center" >
+	<strong>B. VOLTAGE TRANSFORMER: </strong></div>
 </h2>
-<p>
-	<strong><spam style="color:dark blue">Introduction</spam></strong></br>
+<p><spam style="color:dark blue">
+	<strong>Introduction</strong>
+</spam></br>
 Potential transformers are designed to scale down larger values of voltage to smaller values that can be easily measured by meters or manipulated by relays. A potential transformer is a voltage step down, current step up transformer. Thus, under normal operation, the voltage accros the secondary terminals of the transformer is small while the current is very small leading to a small VA of range 50 – to – 200. Under fault conditions for example short circuit of secondary terminals, the current is extremly high due to a negligible voltage. For this reason, the output terminals of a potential transformer should never be shortcircuited. Whether protection or measurement potential transformer, they  both scale down voltage levels.</br>
 <ol>
-<li><strong><spam style="color:blue">Measurement Voltage transformer</spam></strong></li>
+<li><spam style="color:blue">
+	<strong>Measurement Voltage transformer</strong>
+</spam></li>
 A potential transformer for measurement is used to step-down voltages of higher magnetudes ( e.g 11kV) to smaller magnetudes (e.g 100V- to- 110V) for measurement by the energy meter. There are usually designed with accuracy classes of 0.2,0.5 with a burden of 30VA and above.</br>
 Similarily to a current transformer for measurement, potential transformer for measurement also have cores that easily get saturated under fault conditions. Thus if for any reason a measurement potential transformer is used for protection, under fault conditions, the core of the transformer will be saturated leading to a distorted output voltage with which the relay for protection might not operate as a result jeopardising the stability of the power system.</br>
-<li><strong><spam style="color:blue">Protection Voltage transformer</spam></strong></li>
+<li><spam style="color:blue">
+	<strong>Protection Voltage transformer</strong>
+</spam></li>
 Potential protection transformers on the otherhand have cores that do not easily get saturated even under fault conditions. There are often rated in the form P50 or 3P50 which means that a potential protection transformer is capable of maintaining an accuracy of ±1% or ±3%, when the voltage accross its primary winding is 50 times its rated value. Energy meters (e.g Itron SL7000) are designed to handle voltages of up to 480V between phases. Thus if this transformer is used for measurement, with such accuracy (1,3), the readings of the energy meter will not be accurate and under fault conditions, the meter will be damaged due to high voltage that it wasn’t designed to handle.</br>
 For good results, <strong>protection voltage transformer</strong> should be used only for protection purposes while  <strong>measurement voltage transformer</strong> should be used only for measurement purposes.</br>
 <strong>NB</strong></br>
 Most potential transformers for meduim voltages have double secondary windings, one for protection and the other for measurement. Thus, during installation, care should be taken to ensure that the terminals are respected to avoid damages on meters or relay unreliability.</br>
 </ol>
-<strong><spam style="color:blue"><div style="text-align:center">Sizing of voltage transformers for energy meters</div></spam></strong></br>
-<strong><spam style="color:blue">Criteria for the selection of voltage transformers for measurement</spam></strong></br>
+<div style="text-align:center">
+	<spam style="color:blue"><strong>Sizing of voltage transformers for energy meters</strong>
+	</spam>
+</div></br>
+<spam style="color:blue">
+<strong>Criteria for the selection of voltage transformers for measurement</strong>
+</spam></br>
 In the selection of measurement VTs, the following criteria should be respected;</br>
 <ol>
 <li>Determine the load line voltage of the system and then use it to determins the primary voltage of the VT. The load voltage must be greater than 110V between phases.</li>
@@ -128,15 +141,15 @@ In the selection of measurement VTs, the following criteria should be respected;
 Let's select VTs for our example above:</br>
 Since three phase energy meters operates on low voltages of up to 480V, we could just connect our energy meter directly to the generator's current carrying conductors and then use a surge protector, and fuses or a circuit breaker for its protection. On the contrary, we can still use LV measurement voltage metransformer and a circuit breaker for our meter.</br>
 </p>
-	<h3 id="some tips">
-	<strong><div style="text-align:center">C. Some tips relating to metering system’s problem mitigations</div></strong>
+	<h3 id="some tips"><div style="text-align:center">
+	<strong>C. Some tips relating to metering system’s problem mitigations</strong></div>
 </h3>
 <p>
 	In the course of eliminating metering system’s problems, the following useful points can be helpful:</br>
 <ol>
-<li><strong>
-	<spam style="color:blue">Current transformers</spam>
-</strong></li>
+<li><spam style="color:blue">
+	<strong>Current transformers</strong>
+</spam></li>
 Control and inspect the current circuit of the metering system as follows:</br>
 1. Conduct a visual inspection test on the CTs and ensure that they’re no burnt terminals,or loose contacts.</br>
 2. Verify and ensure that the CTs are properly installed and the directions of the terminals labeled P1, P2, S1 and S2 are respected.</br>
@@ -153,9 +166,9 @@ Control and inspect the current circuit of the metering system as follows:</br>
 10. Check the CTs accuracy classes to ensure that the CTs installed are metering class (0.2, 0.5, 1) CTs and not protection class CTs. </br>
 11. For combined measurement and protection CTs, check to ensure that the terminals are properly cabled. Most often, the terminals labeled 1S1, 1S2 are used for metering while 2S1, 2S2 are for protection.</br>
 12. Check the C.S.A of the copper cables linking the CTs with the energy meter to ensure that they correspond to the cable size(6mm<sup>2</sup>) required for the connection of current circuits of energy meters.</br>
-<li><strong>
-	<spam style="color:blue">Voltage transformers</spam>
-</strong></li>
+<li><spam style="color:blue">
+	<strong>Voltage transformers</strong>
+</spam></li>
 Control and inspect the voltage circuit of the metering system as follows:</br>
 1. Conduct a visual inspection test on the VTs and ensure that they’re no burnt terminals,or loose contacts.</br>
 2. Verify and ensure that the VTs are properly installed and the directions of the terminals labeled P1, P2, S1 and S2 are respected.</br>
@@ -173,9 +186,9 @@ Control and inspect the voltage circuit of the metering system as follows:</br>
 <strong>NB: 1kV=1MΩ</strong></br>
 8. Control and inspect the protective device of the voltage circuit. In case of protective fuses, measure the continuity of the fuses using a multimeter. While for a protective circuit breaker, close the breaker and test its continuity using a multimeter.Also, verfy the rating of the fuses or circuit breaker.</br>
 9. Control and inspect the copper cables leaving the protective device to the meter to ensure they are no cuts on any of the cables.</br>
-<li><strong>
-	<spam style="color:blue">Energy meter (Itron SL7000)</spam>
-</strong></li>
+<li><spam style="color:blue">
+	<strong>Energy meter (Itron SL7000)</strong>
+</spam></li>
 Control and inspect the voltage and current circuits of the metering system as follows:</br>
   1. Conduct a visual inspection test on the meter and ensure that they’re no burnt terminals,or loose contacts.</br>
   2. Verify if the manner in which the meter terminals are connected to the voltage and current circuits correspond to the single-line daigram found behind the terminal plastic cover.</br>
@@ -196,7 +209,9 @@ In conclusion, metering system's components should be sized and installed by wel
 </ol>
 For more information on ITRON SL7000 energy meters, check out at:<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjG2an7tZOCAxVwhP0HHfoIDMAQFnoECA4QAQ&url=https%3A%2F%2Fwww.otec.com.ua%2Fshow_catalogue_pdf%2F245372%2F1&usg=AOvVaw1ZlvDOHSkQ7qQsW2cNeqsZ&opi=89978449"
 >ITRON SL7000 installation guide</a></br>			     
-<strong><spam style="color:purple">By Desmond Zeh</spam></strong></br>
+<spam style="color:purple">
+	<strong>By Desmond Zeh</strong>
+</spam></br>
 </p>
 <h4>
 	Hello guys!
@@ -221,5 +236,29 @@ For more information on ITRON SL7000 energy meters, check out at:<a href="https:
 "https://translate.google.com/translate_a/element.js?
 		cb=googleTranslateElementInit">
 	</script>
+<!--My main navigation items-->
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Project</a></li>
+			<li><a href="#">Downloads</a></li>
+		</ul>
+	<form>
+		<input type="search" name='q' placeholder="search query">
+		<input type="submit" value="Valid">
+	</form>
+	</nav>
+	<!--My main aside items-->
+	<aside>
+		<ul>
+			<li><a href="#">Reason why a CT secondary shouldn't be left open</a></li>
+			<li><a href="#">Reasons why a VT secondary shouldn't be shortcircuited</a></li>
+		</ul>
+	</aside>
+	<!--My main footer item-->
+	<footer>
+		Don't judge each by the harvest that you made, but by the seeds that you sold.
+	</footer>
 </body>
 </html>
