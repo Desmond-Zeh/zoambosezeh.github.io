@@ -52,7 +52,7 @@ width:1200px;
 margin: 0 auto;
 padding:0 20px 20px 20px;
 border:10px solid brown;
-background-color: orange;
+background-color: brown;
 }
 html{
 background-color:blue;
@@ -60,7 +60,7 @@ background-color:blue;
 /* || header layout */
 
 nav, article, aside, footer {
-  background-color: white;
+  background-color: orange;
   padding: 1%;
 }
 
@@ -81,6 +81,7 @@ nav ul {
 }
 
 nav li {
+  font-size:20px;
   display: inline;
   text-align: center;
   flex: 1;
