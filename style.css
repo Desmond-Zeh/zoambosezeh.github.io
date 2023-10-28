@@ -141,12 +141,13 @@ article {
 aside {
   flex: 1;
   margin-left: 10px;
-  background-color: purple;
-  color:blue;
+  background: purple;
+
 }
 
 aside ul,li,a {
   padding-bottom: 10px;
+    color:blue;
 }
 
 footer {
