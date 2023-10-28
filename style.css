@@ -128,6 +128,12 @@ script [type="text/javascript"]{
   border: 0;
   color: white;
 }
+aside{
+  font-size:24px;
+  background-color:purple;
+  color:orange;
+  text-align:center;
+}
 /* || main layout */
 
 main {
