@@ -68,33 +68,29 @@ nav, article,footer {
 nav {
   font-size:20px;
   height: 30px;
-  background-color: purple;
-  display: flex;
+    display: flex;
   margin-bottom: 10px;
   text-align: center;
 }
 
 nav ul {
-  font-size:20px;
-  padding: 0;
+    padding: 0;
   list-style-type: none;
   flex: 3;
   display: flex;
 }
 
 nav li {
-  font-size:20px;
-  display: inline;
+    display: inline;
   text-align: center;
   flex: 1;
 }
 
 nav a {
-  font-size:20px;
-  display: inline-block;
+    display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
-  color:dark blue;
+  
 }
 
 nav form {
@@ -148,7 +144,7 @@ aside {
 
 aside ul,li,a {
   padding-bottom: 10px;
-  color:yellow;
+ 
 }
 
 footer {
