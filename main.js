@@ -38,7 +38,7 @@ setUserName();                    ///// Check if the myNumber value is not a num
 else{
   
 localStorage.setItem("name",myName);  /// Save the value of myNumber in a variable called name in the localStorage memory of the browser
-myHeading.textContent="Welcome, " + myName;  /////Add the value of the myNumber to the string and then proceed to the setUserPassword function
+/// myHeading.textContent="Welcome, " + myName;  /////Add the value of the myNumber to the string and then proceed to the setUserPassword function
 setUserPassword();
 }
     
