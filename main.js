@@ -38,7 +38,7 @@ setUserName();                    ///// Check if the myNumber value is not a num
 else{
   
 localStorage.setItem("name",myName);  /// Save the value of myNumber in a variable called name in the localStorage memory of the browser
-/// myHeading.textContent="Welcome, " + myName;  /////Add the value of the myNumber to the string and then proceed to the setUserPassword function
+   myHeading.textContent="Welcome, " + myName;  /////Add the value of the myNumber to the string and then proceed to the setUserPassword function
 setUserPassword();
 }
     
@@ -62,7 +62,7 @@ setUserPassword(); //// Check if the password enter doesn't correspond with the 
 }
 
 else {
-localStorage.getItem("name",myName)  //// Check the value of the myName which is name in the localStorage is not empty and then return to the seyUserName function if it's false
+localStorage.getItem("name",myName)  //// Check the value of the myName which is name in the localStorage is not empty and then return to the setUserName function if it's false
 }
   }
 }
